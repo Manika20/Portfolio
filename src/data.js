@@ -135,18 +135,18 @@ export const skills = {
 export const snapshots = [
   {
     id: 1,
-     src: "/src/assets/snapshots/osttra1.jpg",
+     src: "/snapshots/osttra1.jpg",
     label: "OSTTRA – Software Engineering Work"
    
   },
   {
     id: 2,
-    src: "/src/assets/snapshots/adobe1.jpg",
+    src: "/snapshots/adobe1.jpg",
     label: "Adobe Internship – CXM Team"
   },
   {
     id: 3,
-    src: "/src/assets/snapshots/event1.jpg",
+    src: "/snapshots/event1.jpg",
     label: "Volunteering – Plant plantation drive by Adobe"
   }
 ];
