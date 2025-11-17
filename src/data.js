@@ -3,12 +3,13 @@
 // =========================
 export const siteMeta = {
   name: "Manika Goyal",
-  title: "Software Engineer | Full-Stack Developer",
+  title: "Software Engineer | Full-Stack Developer | Cloud & AI Engineer",
   email: "goyalmanika20@gmail.com",
   github: "https://github.com/Manika20",
   linkedin: "https://www.linkedin.com/in/manika-goyal-49899b229/",
-  resume: "https://drive.google.com/file/d/1BIiiQ7oNgq2lQywbTxbLzNFMEA2NrUqO/view?usp=sharing"
+  resume: "https://drive.google.com/file/d/1MvYDy7ola1nCzjJI6utWcnAj_c75g9SS/view?usp=sharing"
 };
+
 
 // =========================
 // HERO SECTION
@@ -16,31 +17,34 @@ export const siteMeta = {
 export const hero = {
   heading: "Hi, I'm Manika 👋",
   subheading:
-    "Software Engineer skilled in building scalable full-stack applications, cloud-first systems, and high-performance backend services. I love solving complex engineering problems and bringing ideas to life through clean, maintainable code.",
+    "Software Engineer experienced in building scalable full-stack applications, cloud-native systems, and Gen-AI powered platforms. I enjoy solving complex engineering problems and converting ideas into production-ready, high-impact solutions.",
   ctaText: "View my work"
 };
+
 
 // =========================
 // ABOUT SECTION (Highly Polished)
 // =========================
 export const about = {
   paragraph: `
-I'm a Software Engineer with hands-on experience in full-stack development, cloud engineering, 
-and scalable backend systems. I’ve contributed to high-impact projects at OSTTRA (S&P Global) 
-and Adobe — building cloud-based inventory systems, workflow automation platforms, and 
-Gen-AI powered internal tools. 
+I'm a Software Engineer with experience delivering production-grade systems at OSTTRA (S&P Global) 
+and Adobe. I’ve built end-to-end platforms including onboarding portals, cloud asset inventory systems, 
+and a Gen-AI chatbot using search-augmented intelligence. 
 
-I enjoy architecting systems end-to-end, optimizing performance, and writing clean, reliable code 
-that solves real business problems. With a strong foundation in data structures, algorithms, 
-distributed systems, and backend engineering, I aim to build impactful, production-ready products 
-that scale.`,
+I enjoy designing clean architectures, crafting efficient backend services, and building intuitive 
+front-end experiences. I have strong fundamentals in algorithms, distributed systems, and databases — 
+and I love working on systems that automate workflows, reduce manual effort, and scale reliably.
+
+I am also a University Topper (twice) with a CGPA of 9.4/10.
+`,
   
   bullets: [
-    "Experienced in designing scalable full-stack systems (React, Node.js, Spring Boot, Express).",
-    "Strong backend background with REST APIs, database design (Postgres/MongoDB), and cloud services.",
-    "Skilled in automation, workflow engines, infrastructure-aware engineering, and DevOps fundamentals."
+    "Full-stack development experience with React, Node.js, Express, Spring Boot, and REST APIs.",
+    "Cloud engineering using AWS Lambda, GCP services, automation pipelines, and microservices.",
+    "Strong background in DSA, system design, DBMS, OS, computer networks, and ML fundamentals."
   ]
 };
+
 
 // =========================
 // PROJECTS (FAANG-style descriptions)
@@ -48,26 +52,25 @@ that scale.`,
 export const projects = [
   {
     id: 1,
-    title: "SocialHub — Full-Stack Social Platform",
+    title: "SocialHub — Full-Stack Social Media Platform",
     tech: "React, Node.js, Express, MongoDB, Passport.js, Socket.io",
     description: `
-A production-grade social networking platform with secure authentication, 
-real-time messaging, post creation, likes, comments, and friend request workflow. 
-Built a scalable Node.js backend with optimized MongoDB queries and implemented 
-role-based access, session handling, and responsive modern UI with React.`,
+A full-scale MERN social platform with authentication, posts, likes, comments, friends module, 
+and real-time chat. Implemented secure auth with Passport.js (session + token), optimized MongoDB 
+queries, and built a clean responsive UI with React and SCSS. Designed scalable backend APIs and 
+websocket-based messaging.`,
     live: "https://socialhub-dwox.onrender.com/",
     repo: "https://github.com/Manika20/SocialHub"
   },
 
   {
     id: 2,
-    title: "Page Replacement Algorithm Visualizer",
-    tech: "Node.js, C++, Algorithms, Data Structures",
+    title: "Cache Replacement Algorithm Simulator",
+    tech: "C++, Node.js, Algorithms, OS Concepts",
     description: `
-Developed an interactive visualization engine that simulates FIFO, LRU, LFU, MRU, 
-and Optimal page replacement algorithms with step-by-step animation. 
-Implemented the core logic in C++ for accuracy and performance, exposed via Node.js, 
-and built a clean UI for students to analyze fault rates, frame states, and algorithm behavior.`,
+Interactive simulator for FIFO, LRU, MRU, LFU, and Optimal page replacement policies, built using 
+C++ for performance-accurate logic and a Node.js wrapper for UI communication. Includes real-time 
+visualization of cache frames, hit/miss tracking, and customizable inputs for teaching OS concepts.`,
     live: "https://pagereplacement-eqya.onrender.com/",
     repo: "https://github.com/Manika20/PageReplacement"
   },
@@ -77,13 +80,13 @@ and built a clean UI for students to analyze fault rates, frame states, and algo
     title: "MusicVerse — Modern Music Showcase Website",
     tech: "HTML, CSS, Responsive UI",
     description: `
-A minimal, responsive, mobile-friendly music discovery experience with clean UI, 
-featured playlists, artist sections, and smooth navigation. Designed with Flexbox 
-and intuitive UX principles to ensure consistency across screen sizes.`,
+A minimal, mobile-responsive music discovery UI featuring artists, playlists, and clean navigation. 
+Designed with Flexbox and modern UI patterns for a consistent experience across devices.`,
     live: "https://music-site-d9be5.web.app/",
     repo: "https://github.com/Manika20"
   }
 ];
+
 
 // =========================
 // EXPERIENCE (Strong, quantified, recruiter-ready)
@@ -92,26 +95,37 @@ export const experience = [
   {
     company: "Osttra (S&P Global)",
     title: "Associate Software Engineer",
-    date: "Jan 2023 – Present",
+    date: "Apr 2025 – Present",
     entries: [
-      "Designed and developed backend microservices using Spring Boot, Postgres, and REST APIs to support onboarding and connectivity workflows.",
-      "Built cloud-based Asset Inventory System using AWS Lambda and Python for automated tracking, visibility, and reporting across infrastructure.",
-      "Developed frontend components in React for internal workflow portals, improving usability and reducing manual overhead for engineering teams.",
-      "Collaborated across teams to optimize API performance, streamline data flows, and deliver reliable full-stack features in an agile environment."
+      "Built a full-stack Network Onboarding Portal using Spring Boot, React, and PostgreSQL, digitizing customer setup flows and reducing onboarding delays.",
+      "Implemented Azure AD SSO and role-based dashboards, improving authentication reliability and secure access control.",
+      "Automated Jira ticket creation, lifecycle updates, and email notifications, removing manual follow-ups and speeding workflows.",
+    ]
+  },
+
+  {
+    company: "Osttra (S&P Global)",
+    title: "Associate Software Engineer — Asset Inventory System",
+    date: "Jan 2025 – Apr 2025",
+    entries: [
+      "Engineered a multi-cloud Asset Inventory System using AWS and GCP, enabling real-time visibility into infra resources.",
+      "Automated cloud ingestion pipelines using AWS Lambda and Python, reducing manual audits and improving monitoring accuracy.",
+      "Integrated asset tracking with Jira for smooth lifecycle updates from provisioning to retirement."
     ]
   },
 
   {
     company: "Adobe",
-    title: "Technical Consultant (CXM) — Intern",
+    title: "Automation Engineer Intern — Gen-AI Chatbot",
     date: "Jun 2024 – Aug 2024",
     entries: [
-      "Automated end-to-end onboarding processes, reducing manual efforts by over 70% and improving operational efficiency across teams.",
-      "Developed a Gen-AI based query answering platform enabling employees to instantly retrieve Adobe-verified documentation using natural language search.",
-      "Integrated efficient workflow rules, optimized queries, and built components to enhance system reliability and ease of use."
+      "Built a Search-Augmented Generation (SAG) chatbot that answered Adobe-verified queries using real documentation only.",
+      "Designed a real-time fetch pipeline pulling data from adobe.com to prevent hallucinations and keep LLM responses accurate.",
+      "Developed a topic classification engine using TF-IDF + K-Means, deployed on a VM via Flask API."
     ]
   }
 ];
+
 
 // =========================
 // SKILLS (Clean, polished categories)
@@ -128,26 +142,14 @@ export const skills = {
     },
     {
       name: "Cloud, DevOps & Tools",
-      list: ["Git", "Docker (Basics)", "AWS Lambda", "Flask", "REST APIs", "Linux"]
+      list: ["AWS Lambda", "GCP", "Docker", "GitHub Workflows", "Flask", "Linux", "REST APIs"]
     }
   ]
 };
+
 export const snapshots = [
-  {
-    id: 1,
-     src: "/snapshots/osttra1.jpg",
-    label: "OSTTRA – Software Engineering Work"
-   
-  },
-  {
-    id: 2,
-    src: "/snapshots/adobe1.jpg",
-    label: "Adobe Internship – CXM Team"
-  },
-  {
-    id: 3,
-    src: "/snapshots/event1.jpg",
-    label: "Volunteering – Plant plantation drive by Adobe"
-  }
+  { id: 1, src: "/snapshots/osttra1.jpg", label: "OSTTRA – Software Engineering Work" },
+  { id: 2, src: "/snapshots/adobe1.jpg", label: "Adobe Internship – CXM Team" },
+  { id: 3, src: "/snapshots/event1.jpg", label: "Volunteering – Adobe Plantation Drive" }
 ];
 

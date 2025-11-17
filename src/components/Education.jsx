@@ -17,6 +17,9 @@ export default function Education() {
           <li>CGPA: <strong>9.4/10</strong> (Department Topper)</li>
           <li>Specialization in Artificial Intelligence & Machine Learning</li>
           <li>Coursework: DSA, DBMS, OS, CN, ML, Web Development</li>
+         
+          <li><strong>University Topper (Twice)</strong>, CSE AIML Department</li>
+
           <li>Cleared SIH Internal Hackathon Round (2023)</li>
         </ul>
       </div>
