@@ -7,7 +7,7 @@ export const siteMeta = {
   email: "goyalmanika20@gmail.com",
   github: "https://github.com/Manika20",
   linkedin: "https://www.linkedin.com/in/manika-goyal-49899b229/",
-  resume: "https://drive.google.com/file/d/1MvYDy7ola1nCzjJI6utWcnAj_c75g9SS/view?usp=sharing"
+  resume: "https://drive.google.com/file/d/1va7t8AzSpwKhZDFW-jsbr7DRGeHvf9Gf/view?usp=sharing"
 };
 
 
